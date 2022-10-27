@@ -1,0 +1,6 @@
+com\innovatechsupport\registroproductos\model\ClienteRunner.class
+com\innovatechsupport\registroproductos\model\ClienteImpl.class
+com\innovatechsupport\registroproductos\model\Cliente.class
+com\innovatechsupport\registroproductos\controller\Controller.class
+com\innovatechsupport\registroproductos\repositorio\ClienteRepositorio.class
+com\innovatechsupport\registroproductos\RegistroproductosApplication.class
