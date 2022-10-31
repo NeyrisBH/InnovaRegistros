@@ -1,7 +1,8 @@
-package com.innovatechsupport.registroproductos.model;
+package com.innovatechsupport.registroproductos.model.entitys;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,17 +14,20 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor //CONTRUCTOR CON PARAMETROS
 @Entity
 public class Cliente implements Serializable {
+    
     @Id
+    @GeneratedValue
     private Integer id;
     @NonNull
+    private String identificacion;
     private String nombres;
     private String apellidos;
     private String email;
-    private Integer telefono;
+    private double telefono;
     private String direccion;
 
-    public Cliente(Integer id, String nombres, String apellidos, String email, Integer telefono, String direccion) {
-        this.id = id;
+    public Cliente(String identificacion, String nombres, String apellidos, String email, double telefono, String direccion) {
+        this.identificacion = identificacion;
         this.nombres = nombres;
         this.apellidos = apellidos;
         this.email = email;

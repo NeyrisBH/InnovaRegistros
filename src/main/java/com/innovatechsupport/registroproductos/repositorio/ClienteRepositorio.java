@@ -1,6 +1,6 @@
 package com.innovatechsupport.registroproductos.repositorio;
 
-import com.innovatechsupport.registroproductos.model.Cliente;
+import com.innovatechsupport.registroproductos.model.entitys.Cliente;
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

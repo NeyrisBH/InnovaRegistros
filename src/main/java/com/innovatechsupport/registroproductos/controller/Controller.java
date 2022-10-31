@@ -1,6 +1,5 @@
 package com.innovatechsupport.registroproductos.controller;
 
-import com.innovatechsupport.registroproductos.model.Cliente;
 import com.innovatechsupport.registroproductos.repositorio.ClienteRepositorio;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

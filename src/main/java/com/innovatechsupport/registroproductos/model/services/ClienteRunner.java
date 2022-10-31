@@ -1,4 +1,4 @@
-package com.innovatechsupport.registroproductos.model;
+package com.innovatechsupport.registroproductos.model.services;
 /**
  *
  * @author Usuario
