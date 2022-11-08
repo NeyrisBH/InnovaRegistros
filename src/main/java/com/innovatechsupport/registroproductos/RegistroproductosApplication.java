@@ -26,8 +26,8 @@ public class RegistroproductosApplication {
             Stream.of(
 //                    new Cliente(1115866620, "Neyris", "Bohorquez", "neyris99@gmail.com", 301346, "CLL 31 A 29 39"),
 //                    new Cliente(15684364, "Luz", "Ibica", "neyris99@hotmail.com", 314416, "CR 11 11 56")
-                    new Cliente("1115866620", "Neyris", "Bohorquez", "neyris99@gmail.com", 314160296, "CLL 31 A 29 39"),
-                    new Cliente("15684351464", "Luz", "Ibica", "neyris99@hotmail.com", 310020526, "CR 11 11 56")
+                    new Cliente("1115866620", "Neyris", "Bohorquez", "neyris99@gmail.com", 30134634, "CLL 31 A 29 39"),
+                    new Cliente("15684364", "Luz", "Ibica", "neyris99@hotmail.com", 314416, "CR 11 11 56")
             )
                     .map(clienteRepositorio::save)
                     .forEach(System.out::println);
